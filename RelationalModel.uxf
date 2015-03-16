@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>710</x>
-      <y>600</y>
-      <w>250</w>
-      <h>30</h>
+      <x>664</x>
+      <y>536</y>
+      <w>200</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*cpr | name | phNumber | id_Address</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>380</y>
-      <w>190</w>
-      <h>30</h>
+      <x>536</x>
+      <y>360</y>
+      <w>152</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_Address | zipcode | city</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>460</y>
-      <w>250</w>
-      <h>30</h>
+      <x>592</x>
+      <y>424</y>
+      <w>200</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_Invoice | invoiceNr | paymentDate</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>140</x>
-      <y>230</y>
-      <w>290</w>
-      <h>30</h>
+      <x>208</x>
+      <y>240</y>
+      <w>232</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_SaleLine | amount | price | **barcode</panel_attributes>
     <additional_attributes/>
@@ -48,10 +48,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>530</y>
-      <w>650</w>
-      <h>30</h>
+      <x>104</x>
+      <y>480</y>
+      <w>520</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_SalesOrder | date | deliveryStatus | deliveryDate | price | paid  | **id_Address | **cpr | **id_invoice</panel_attributes>
     <additional_attributes/>
@@ -59,10 +59,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>290</y>
-      <w>350</w>
-      <h>30</h>
+      <x>584</x>
+      <y>288</y>
+      <w>280</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_Supplier | name | phoneNr | email | **id_Address</panel_attributes>
     <additional_attributes/>
@@ -70,10 +70,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>150</y>
-      <w>630</w>
-      <h>30</h>
+      <x>352</x>
+      <y>176</y>
+      <w>504</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*barcode | name | purchasePrice | salesPrice | countryOfOrigin | minStock | currSrock | **id_supplier</panel_attributes>
     <additional_attributes/>
@@ -81,10 +81,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>10</y>
-      <w>250</w>
-      <h>30</h>
+      <x>328</x>
+      <y>64</y>
+      <w>200</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_Clothing | size | colour </panel_attributes>
     <additional_attributes/>
@@ -92,10 +92,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>10</y>
-      <w>250</w>
-      <h>30</h>
+      <x>544</x>
+      <y>64</y>
+      <w>200</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_GunReplicas | fabric | calibre</panel_attributes>
     <additional_attributes/>
@@ -103,10 +103,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>10</y>
-      <w>260</w>
-      <h>30</h>
+      <x>112</x>
+      <y>64</y>
+      <w>208</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_Equipment | type | description | </panel_attributes>
     <additional_attributes/>
@@ -114,10 +114,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>170</y>
-      <w>250</w>
-      <h>140</h>
+      <x>632</x>
+      <y>192</y>
+      <w>200</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -126,10 +126,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>170</y>
-      <w>30</w>
-      <h>80</h>
+      <x>376</x>
+      <y>192</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -138,10 +138,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>400</y>
-      <w>310</w>
-      <h>220</h>
+      <x>584</x>
+      <y>376</y>
+      <w>248</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -150,10 +150,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>400</y>
-      <w>150</w>
-      <h>150</h>
+      <x>448</x>
+      <y>376</y>
+      <w>120</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -162,10 +162,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>550</y>
-      <w>200</w>
-      <h>90</h>
+      <x>520</x>
+      <y>496</y>
+      <w>160</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -174,10 +174,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>460</y>
-      <w>60</w>
-      <h>90</h>
+      <x>560</x>
+      <y>424</y>
+      <w>48</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -186,10 +186,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>30</y>
-      <w>30</w>
-      <h>140</h>
+      <x>376</x>
+      <y>80</y>
+      <w>24</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -198,10 +198,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>30</y>
-      <w>270</w>
-      <h>140</h>
+      <x>168</x>
+      <y>80</y>
+      <w>216</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -210,10 +210,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>30</y>
-      <w>310</w>
-      <h>140</h>
+      <x>392</x>
+      <y>80</y>
+      <w>248</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -222,10 +222,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>310</y>
-      <w>340</w>
-      <h>90</h>
+      <x>568</x>
+      <y>304</y>
+      <w>272</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -234,10 +234,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>320</y>
-      <w>280</w>
-      <h>30</h>
+      <x>104</x>
+      <y>312</y>
+      <w>224</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>*id_LineAndOrder | **id_Order | **id_Line</panel_attributes>
     <additional_attributes/>
@@ -245,10 +245,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>340</y>
-      <w>30</w>
-      <h>210</h>
+      <x>168</x>
+      <y>328</y>
+      <w>24</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -257,13 +257,134 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>250</y>
-      <w>30</w>
-      <h>90</h>
+      <x>264</x>
+      <y>256</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>328</x>
+      <y>48</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Clothing*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>112</x>
+      <y>48</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Equipment*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>544</x>
+      <y>48</y>
+      <w>224</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>*GunReplicas*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>424</x>
+      <y>160</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Product*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>208</x>
+      <y>224</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*SaleLine*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>296</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*LineAndOrder*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>584</x>
+      <y>272</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Supplier*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>464</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*SalesOrder*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>664</x>
+      <y>520</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Customer*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>512</x>
+      <y>344</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Address*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>592</x>
+      <y>408</y>
+      <w>224</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Invoice*</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
