@@ -284,7 +284,7 @@ paymentDate
       <w>50</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>m1=1
+    <panel_attributes>m1=0..1
 m2=1..*</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
