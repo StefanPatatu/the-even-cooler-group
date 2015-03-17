@@ -56,7 +56,7 @@
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-type cpr</panel_attributes>
+getCustomer(cpr)</panel_attributes>
     <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -68,7 +68,7 @@ type cpr</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-type barcode and quantity</panel_attributes>
+startSaleLine(barcode, quantity)</panel_attributes>
     <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -93,7 +93,7 @@ returns the current sales lines with total price
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-finish sale</panel_attributes>
+finish sale()</panel_attributes>
     <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -128,7 +128,7 @@ finish sale</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-specify delivery and payment</panel_attributes>
+getSpecifications(delivery,payment)</panel_attributes>
     <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
