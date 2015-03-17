@@ -17,10 +17,10 @@
     <coordinates>
       <x>536</x>
       <y>360</y>
-      <w>152</w>
+      <w>192</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Address | zipcode | city</panel_attributes>
+    <panel_attributes>*id_Address | zipcode | city | street</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
