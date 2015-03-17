@@ -31,13 +31,17 @@ fontsize=10
       <x>120</x>
       <y>260</y>
       <w>100</w>
-      <h>80</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Customer
 --
 cpr
 name
-phNumber</panel_attributes>
+phNumber
+type
+zipCode
+city
+street</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -58,29 +62,19 @@ m2=0..*</panel_attributes>
       <x>370</x>
       <y>240</y>
       <w>100</w>
-      <h>110</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>SalesOrder
 --
 date
 deliveryStatus
 deliveryDate
-price
 paid
+zipCode
+city
+street
 </panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>410</x>
-      <y>160</y>
-      <w>40</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>m2=0..*
-m1=0..1</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -179,13 +173,16 @@ calibre
       <x>790</x>
       <y>90</y>
       <w>100</w>
-      <h>80</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>Supplier
 --
 name
 phoneNr
 email
+zipCode
+city
+street
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -193,13 +190,13 @@ email
     <id>Relation</id>
     <coordinates>
       <x>830</x>
-      <y>160</y>
+      <y>180</y>
       <w>40</w>
-      <h>100</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>m1=0..*
 m2=0..*</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -235,45 +232,6 @@ m2=0..*</panel_attributes>
     <additional_attributes>10.0;10.0;60.0;70.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>370</x>
-      <y>90</y>
-      <w>100</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Address
---
-zipCode
-city
-street</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>210</x>
-      <y>160</y>
-      <w>180</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>m1=0..*
-m2=1</panel_attributes>
-    <additional_attributes>10.0;100.0;160.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>460</x>
-      <y>120</y>
-      <w>350</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>m1=1
-m2=0..1</panel_attributes>
-    <additional_attributes>10.0;10.0;330.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>460</x>
@@ -282,7 +240,7 @@ m2=0..1</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>m1=1
-m2=0..*</panel_attributes>
+m2=1..*</panel_attributes>
     <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
   </element>
   <element>
@@ -304,12 +262,12 @@ paymentDate
     <id>Relation</id>
     <coordinates>
       <x>410</x>
-      <y>340</y>
+      <y>360</y>
       <w>40</w>
-      <h>110</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>m1=0..1
 m2=1..*</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
