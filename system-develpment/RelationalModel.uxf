@@ -99,7 +99,7 @@ fontsize=10
       <w>568</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_product | barcode | productName | purchasePrice | salesPrice | countryOfOrigin | minStock | currSrock | type</panel_attributes>
+    <panel_attributes>*id_product | barcode | productName | purchasePrice | salesPrice | countryOfOrigin | minStock | currSrock | productType</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
