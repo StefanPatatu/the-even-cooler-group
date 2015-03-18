@@ -33,7 +33,7 @@ fontsize=10
       <w>336</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_customer | cpr | name | phNumber | type | street | **id_Address</panel_attributes>
+    <panel_attributes>*id_customer | cpr | customerName | phNumber | customerType | street | **id_Address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -132,7 +132,7 @@ fontsize=10
       <w>208</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Equipment | type | description | </panel_attributes>
+    <panel_attributes>*id_Equipment | equipmentType | equipmentDescription </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
