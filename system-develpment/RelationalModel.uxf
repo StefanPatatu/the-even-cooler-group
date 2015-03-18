@@ -30,10 +30,10 @@ fontsize=10
     <coordinates>
       <x>740</x>
       <y>610</y>
-      <w>420</w>
+      <w>430</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>*id_customer | cpr | customerName | phNumber | customerType | street | **id_address</panel_attributes>
+    <panel_attributes>*id_customer | cpr | customerName | phNumber | customerType | customerStreet | **id_address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -88,7 +88,7 @@ fontsize=10
       <w>440</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>*id_supplier | supplierName | phoneNr | email | street | **id_address</panel_attributes>
+    <panel_attributes>*id_supplier | supplierName | phoneNr | email | supplierStreet | **id_address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
