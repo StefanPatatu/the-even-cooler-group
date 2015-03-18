@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="13.0">
+<diagram program="umlet" version="13.2">
   <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -61,10 +61,10 @@
     <coordinates>
       <x>544</x>
       <y>288</y>
-      <w>320</w>
+      <w>352</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Supplier | name | phoneNr | email | street | **id_Address</panel_attributes>
+    <panel_attributes>*id_Supplier | supplierName | phoneNr | email | street | **id_Address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -72,10 +72,10 @@
     <coordinates>
       <x>304</x>
       <y>176</y>
-      <w>552</w>
+      <w>568</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_product | barcode | name | purchasePrice | salesPrice | countryOfOrigin | minStock | currSrock | tpye</panel_attributes>
+    <panel_attributes>*id_product | barcode | productName | purchasePrice | salesPrice | countryOfOrigin | minStock | currSrock | type</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
