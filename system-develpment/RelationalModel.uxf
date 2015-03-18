@@ -33,7 +33,7 @@ fontsize=10
       <w>336</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_customer | cpr | customerName | phNumber | customerType | street | **id_Address</panel_attributes>
+    <panel_attributes>*id_customer | cpr | customerName | phNumber | customerType | street | **id_address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -44,7 +44,7 @@ fontsize=10
       <w>192</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Address | zipcode | city</panel_attributes>
+    <panel_attributes>*id_address | zipcode | city</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -55,7 +55,7 @@ fontsize=10
       <w>200</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Invoice | invoiceNr | paymentDate</panel_attributes>
+    <panel_attributes>*id_invoice | invoiceNr | paymentDate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -66,7 +66,7 @@ fontsize=10
       <w>328</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_SaleLine | amount | price | **id_product | **id_SalesOrder</panel_attributes>
+    <panel_attributes>*id_saleLine | amount | price | **id_product | **id_salesOrder</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -77,7 +77,7 @@ fontsize=10
       <w>552</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_SalesOrder | date | deliveryStatus | deliveryDate | paid  | street | **id_Address | **id_c | **id_invoice</panel_attributes>
+    <panel_attributes>*id_salesOrder | date | deliveryStatus | deliveryDate | paid  | street | **id_address | **id_c | **id_invoice</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -88,7 +88,7 @@ fontsize=10
       <w>352</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Supplier | supplierName | phoneNr | email | street | **id_Address</panel_attributes>
+    <panel_attributes>*id_supplier | supplierName | phoneNr | email | street | **id_address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -110,7 +110,7 @@ fontsize=10
       <w>200</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Clothing | size | colour </panel_attributes>
+    <panel_attributes>*id_clothing | size | colour </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -121,7 +121,7 @@ fontsize=10
       <w>200</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_GunReplicas | fabric | calibre</panel_attributes>
+    <panel_attributes>*id_gunReplicas | fabric | calibre</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -132,7 +132,7 @@ fontsize=10
       <w>208</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_Equipment | equipmentType | equipmentDescription </panel_attributes>
+    <panel_attributes>*id_equipment | equipmentType | equipmentDescription </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -385,7 +385,7 @@ fontsize=10
       <w>280</w>
       <h>24</h>
     </coordinates>
-    <panel_attributes>*id_ProductSuplier | **id_product | **id_suplier</panel_attributes>
+    <panel_attributes>*id_productSuplier | **id_product | **id_suplier</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
