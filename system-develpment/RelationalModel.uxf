@@ -77,7 +77,7 @@ fontsize=10
       <w>690</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>*id_salesOrder | salesDate | deliveryStatus | deliveryDate | paid  | street | **id_address | **id_c | **id_invoice</panel_attributes>
+    <panel_attributes>*id_salesOrder | salesDate | deliveryStatus | deliveryDate | paid  | deliveryStreet | **id_address | **id_c | **id_invoice</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
