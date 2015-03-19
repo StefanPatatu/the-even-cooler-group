@@ -187,7 +187,7 @@ CREATE TABLE Customer(
 	customerName				nvarchar(64)		NOT NULL,
 	phNumber					nvarchar(16),
 	customerType				nvarchar(16)		NOT NULL,
-	custoemrStreet				nvarchar(256),
+	customerStreet				nvarchar(256),
 	id_address					int					NOT NULL,
 	PRIMARY KEY (id_customer),
 	FOREIGN KEY (id_address) REFERENCES Address(id_address) ON DELETE NO ACTION ON UPDATE NO ACTION,
