@@ -75,6 +75,9 @@ public class SalesOrder {
 				", deliveryDate=" + deliveryDate +
 				", paid=" + paid +
 				", deliveryStreet=" + deliveryStreet +
+				", id_address=" + address.getId_address() +
+				", id_customer=" + customer.getId_customer() +
+				", id_invoice=" + invoice.getId_invoice() +
 				"]";
 
 }
