@@ -10,6 +10,9 @@ public class Address {
 		this.setZipcode(zipcode);
 		this.setCity(city);
 	}
+	public Address(int id_address) {
+		this.setId_address(id_address);
+	}
 	//id_address
 	public int getId_address() {
 		return id_address;

@@ -5,7 +5,7 @@ public class Variables {
 	//print to console (true/false)?
 	private static final boolean testMode = true;
 	//which database to use ("local"/"kraka")?
-	private static final String database = "local";
+	private static final String database = "kraka";
 	
 	//variables
 	private static String DBurl;

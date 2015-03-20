@@ -56,7 +56,7 @@ public class DbConnection {
         	}
         }
     }
-    public  Connection getDBcon() {
+    public Connection getDBcon() {
        return con;
     }
     //this method is used to get the instance of the connection

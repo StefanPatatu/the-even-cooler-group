@@ -32,6 +32,6 @@ public class Invoice {
 				", invoiceDate=" + invoiceDate + 
 				", paymentDate=" + paymentDate +
 				"]";
-	
+	}
 
 }
